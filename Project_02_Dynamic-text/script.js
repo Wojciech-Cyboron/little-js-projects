@@ -15,7 +15,7 @@ function sizeDown() {
   if (number > 16) {
     number -= 10
     console.log("minus")
-    loremTxt.style.fontSize = font + "px"
+    loremTxt.style.fontSize = number + "px"
   }
 }
 
